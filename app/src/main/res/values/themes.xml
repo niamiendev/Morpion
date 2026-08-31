@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.Morpion" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_morpion</item>
+        <item name="windowSplashScreenBackground">@color/ic_morpion_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.Morpion</item>
+    </style>
 </resources>
